@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css float</title>
+    <style>
+        *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+div{
+    height: 100px;
+    width: 100%
+}
+
+.bg-black-left{
+    float: left;
+    background-color: black;
+    width: 25%;
+}
+.bg-black-right{
+    float: right;
+    background-color: black;
+    width: 25%;
+}
+.bg-red{
+    background-color: red;
+}
+.bottom-div{
+    width: 100%
+}
+.w-25-left{
+    width: 25%;
+    float: left;
+}
+.bg-blue{
+    background-color: blue;
+    height: 200px;
+    width: 25%;
+    float: left;    
+}
+.yellow-green-parent{
+    float: left;
+    width: 25%;
+}
+.bg-yellow{
+    background-color: yellow;
+    width: 5-%;
+}
+.bg-green{
+    background-color: green;
+    width;:50%
+}
+
+    </style>
+</head>
+<body>
+<div class="top-div">
+    <div class="bg-black-left"></div>
+    <div class="bg-black-right"></div>
+</div>   
+<div class="middle-div">
+    <div class="bg-red"></div>  
+</div> 
+<div class="bottom-div">
+<div class="w-25-left"></div>
+    <div class="bg-blue"></div>
+<div class="yellow-green-parent">
+    <div class="bg-yellow"></div>
+    <div class="bg-green"></div>
+</div>
+</div>
